@@ -1,0 +1,348 @@
+body{
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:1171px){
+
+  .mainVis{
+    position: fixed;
+    /* position: absolute; */
+    height:100%;
+    width:auto;
+    z-index:-1;
+    text-align: center;
+  }
+  .image{
+    position:absolute;
+    /* text-align: right; */
+    top:50%;
+    left:20vw;
+    transform: translateY(-60%) translateX(-50%);
+    width:auto;
+    height:130%;
+  }
+
+  .image2{
+
+    position:absolute;
+    /* text-align: right; */
+    top:50%;
+    left:80vw;
+    transform: translateY(-40%) translateX(-50%);
+    width:auto;
+    height:130%;
+    /* object-fit: cover; */
+  }
+
+  .mainWrap{
+    position: relative;
+    height:100vh;
+  }
+
+  .yoyaku-link{
+    /* position:absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    /* left: 100px; */
+    /* text-align: center; */
+    /* left: 50%; */
+    /* top:50%; */
+    font-size: 25px;
+    position: absolute;          /* 位置指定 */
+     top: 50%;                    /* 親要素の半分下にずらす */
+     left: 50%;                   /* 親要素の半分右にずらす */
+     transform: translateY(-50%) translateX(-50%);    /* 要素自体の半分、上と左にずらす */
+     padding: 20px;
+  }
+
+  .title {
+    position:absolute;
+    /* left: 100px; */
+    text-align: left;
+    margin-left: 40px;
+  }
+  .title1{
+    text-align: left;
+    font-size: 55;
+    margin-bottom: -10px;
+  }
+
+  .titleA{
+    font-size:40px;
+  }
+
+  .osirase{
+    position:absolute;
+    top:100px;
+    right:30px;
+    text-align: right;
+    font-size: 15px;
+  }
+  .engTitle{
+    position:absolute;
+    bottom:20px;
+    right:30px;
+    text-align: right;
+    font-size: 18px;
+  }
+
+  .title-vertical{
+    position:absolute;
+    top:200px;
+    right:30px;
+    text-align: right;
+    font-size: 15px;
+    text-align: right;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+  }
+
+  .info{
+    position:absolute;
+    padding:0px;
+    bottom:30px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom:-20px;
+  }
+
+  .info1{
+    line-height: 70px;
+  }
+
+  .year{
+    font-size: 50px;
+      /* line-height:60px; */
+  }
+
+  .date{
+    font-size: 80px;
+    /* line-height:50px; */
+    text-decoration: underline;
+  }
+
+  .info2{
+    font-size: 25px;
+    line-height:35px;
+    color:white;
+  }
+
+  .time{
+    background-color: black;
+    color:white;
+  }
+  .place{
+    background-color: black;
+    color:white;
+  }
+
+
+  .info3{
+    font-size: 15px;
+    line-height:15px;
+    color:white;
+  }
+
+  .organize{
+    background-color: black;
+    color:white;
+  }
+  .assist{
+    background-color: black;
+    color:white;
+  }
+
+  .info4{
+    color:white;
+  }
+
+  .yoyaku{
+    font-size: 25px;
+    background-color: black;
+    color:white;
+  }
+  .yoyaku2{
+    line-height: 25px;
+    font-size: 15px;
+    background-color: black;
+    color:white;
+  }
+}
+
+
+@media screen and (max-width:1170px){
+
+  .mainVis{
+    position: fixed;
+    /* position: absolute; */
+    height:100%;
+    width:auto;
+    z-index:-1;
+    text-align: center;
+  }
+  .image{
+    position:absolute;
+    /* text-align: right; */
+    top:50%;
+    left:50vw;
+    transform: translateY(-55%) translateX(-50%);
+    width:100vw;
+    height:auto;
+  }
+
+  .image2{
+    display: none;
+    position:absolute;
+    /* text-align: right; */
+    top:50%;
+    left:80vw;
+    transform: translateY(-40%) translateX(-50%);
+    width:auto;
+    height:130%;
+    /* object-fit: cover; */
+  }
+
+  .mainWrap{
+    position: relative;
+    height:100vh;
+  }
+
+  .yoyaku-link{
+    /* position:absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    /* left: 100px; */
+    /* text-align: center; */
+    /* left: 50%; */
+    /* top:50%; */
+    font-size: 15px;
+    position: absolute;          /* 位置指定 */
+     top: 50%;                    /* 親要素の半分下にずらす */
+     left: 50%;                   /* 親要素の半分右にずらす */
+     transform: translateY(-50%) translateX(-50%);    /* 要素自体の半分、上と左にずらす */
+     padding: 20px;
+  }
+
+  .title {
+    position:absolute;
+    /* left: 100px; */
+    text-align: left;
+    margin-left: 40px;
+  }
+  .title1{
+    text-align: left;
+    font-size: 35px;
+    margin-bottom: -10px;
+  }
+
+  .titleA{
+    font-size:30px;
+  }
+
+  .osirase{
+    position:absolute;
+    top:100px;
+    right:30px;
+    text-align: right;
+    font-size: 15px;
+  }
+  .engTitle{
+    display: none;
+    position:absolute;
+    bottom:20px;
+    right:30px;
+    text-align: right;
+    font-size: 18px;
+  }
+
+  .title-vertical{
+    position:absolute;
+    top:200px;
+    right:30px;
+    text-align: right;
+    font-size: 15px;
+    text-align: right;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+  }
+
+  .info{
+    position:absolute;
+    padding:0px;
+    bottom:30px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom:-20px;
+  }
+
+  .info1{
+    line-height: 40px;
+  }
+
+  .year{
+    font-size: 30px;
+      /* line-height:60px; */
+  }
+
+  .date{
+    font-size: 40px;
+    /* line-height:50px; */
+    text-decoration: underline;
+  }
+
+  .info2{
+    font-size: 17px;
+    line-height:20px;
+    color:white;
+  }
+
+  .time{
+    background-color: black;
+    color:white;
+  }
+  .place{
+    background-color: black;
+    color:white;
+  }
+
+
+  .info3{
+    font-size: 15px;
+    line-height:15px;
+    color:white;
+  }
+
+  .organize{
+    background-color: black;
+    color:white;
+  }
+  .assist{
+    background-color: black;
+    color:white;
+  }
+
+  .info4{
+    color:white;
+  }
+
+  .yoyaku{
+    font-size: 25px;
+    background-color: black;
+    color:white;
+  }
+  .yoyaku2{
+    line-height: 25px;
+    font-size: 15px;
+    background-color: black;
+    color:white;
+  }
+}

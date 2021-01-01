@@ -1,0 +1,94 @@
+.title{
+  float:center;
+  padding:10;
+}
+
+.title h1{
+  text-align: center;
+  font-size: 40;
+
+}
+
+.items{
+  width:80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.acd-check{
+    display: none;
+}
+.acd-label{
+    background-color: #fff;
+    color: #565656;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+    transition: .5s;
+}
+
+.acd-label:hover{
+  background-color:#d9d9d9 ;
+  transition: .2s;
+}
+
+.acd-content{
+    background-color: #fff;
+    /* border: 1px solid #333; */
+    height: 0;
+    opacity: 0;
+    padding: 0 0px;
+    margin:0;
+    transition: .5s;
+    visibility: hidden;
+    color: #565656;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+}
+.acd-check:checked + .acd-label + .acd-content{
+    height: auto;
+    opacity: 1;
+    padding: 10px;
+    visibility: visible;
+}
+
+.addres{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20;
+  margin-bottom:20;
+  background-color: #FFFFFF;
+  color: black;
+  padding:10 10 10 10;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+}
+
+@media screen and (max-width:750px){
+  .addres{
+    width:300px;
+  }
+
+  .addres p{
+    font-size:14;
+  }
+}
+
+@media screen and (min-width:751px){
+  .addres{
+    width:560px;
+  }
+  .addres p{
+    font-size:18;
+  }
+}
+
+
+.form{
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}

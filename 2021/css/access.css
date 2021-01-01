@@ -1,0 +1,39 @@
+
+
+
+
+  @media screen and (min-width:1171px){
+    .info{
+      padding: 0 70px;
+    }
+
+    .map{
+      margin: 40px 0;
+
+      width:100%;
+      text-align: center;
+      padding: 0;
+    }
+    .map iframe{
+      width:800px;
+      height:600px;
+    }
+  }
+
+  @media screen and (max-width:1170px){
+    .info{
+      padding: 0 70px;
+    }
+
+    .map{
+      margin: 40px 0;
+
+      width:100%;
+      text-align: center;
+      padding: 0;
+    }
+    .map iframe{
+      width:95%;
+      height:600px;
+    }
+  }

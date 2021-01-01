@@ -1,0 +1,44 @@
+.title{
+  font-size: 40;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom:0;
+  width:100%;
+  padding-top: 5;
+  padding-bottom: 5;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.title h1{
+  font-size: 40;
+  padding-top: 5;
+  padding-bottom: 5;
+}
+
+.form{
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+@media screen and (max-width:480px){
+  .form{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width:450px;
+    height:525px;
+  }
+}
+@media screen and (min-width:781px){
+  .form{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width:640px;
+    height:525px;
+  }
+}
