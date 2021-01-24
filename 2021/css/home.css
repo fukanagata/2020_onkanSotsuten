@@ -14,7 +14,10 @@ body{
 @media screen and (min-width:1171px){}
 @media screen and (max-width:1170px){}
 
-
+.yoyaku-link a{
+  text-decoration: none;
+  color: white;
+}
 
 @media screen and (min-width:1171px){
 
@@ -68,6 +71,10 @@ body{
      left: 50%;                   /* 親要素の半分右にずらす */
      transform: translateY(-50%) translateX(-50%);    /* 要素自体の半分、上と左にずらす */
      padding: 20px;
+  }
+
+  .yoyaku-link2{
+    display: none;
   }
 
   .title {
@@ -127,7 +134,7 @@ body{
     bottom:30px;
     margin-top: 50px;
     margin-left: 40px;
-    margin-bottom:-20px;
+    margin-bottom:-0px;
   }
 
   .info1{
@@ -233,6 +240,7 @@ body{
   }
 
   .yoyaku-link{
+
     /* position:absolute;
     display: block;
     margin-left: auto;
@@ -241,12 +249,28 @@ body{
     /* text-align: center; */
     /* left: 50%; */
     /* top:50%; */
+    /* display:inline-block;
     font-size: 15px;
-    position: absolute;          /* 位置指定 */
-     top: 50%;                    /* 親要素の半分下にずらす */
-     left: 50%;                   /* 親要素の半分右にずらす */
-     transform: translateY(-50%) translateX(-50%);    /* 要素自体の半分、上と左にずらす */
-     padding: 20px;
+    margin: auto;
+    position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translateY(-50%) translateX(-50%);
+     padding: 0px;
+     display: none; */
+
+     display: none;
+  }
+
+  .yoyaku-link2{
+    margin: 0px;
+    font-size: 18px;
+    background-color: black;
+  }
+  .yoyaku-link2 a{
+    line-height: 40px;
+    text-decoration: none;
+    color: yellow;
   }
 
   .title {
@@ -303,7 +327,7 @@ body{
   .info{
     position:absolute;
     padding:0px;
-    bottom:30px;
+    bottom:0px;
     margin-top: 50px;
     margin-left: 10px;
     margin-bottom:-20px;
@@ -360,14 +384,14 @@ body{
   }
 
   .yoyaku{
-    font-size: 13px;
-    line-height: 25px;
+    font-size: 11px;
+    line-height: 20px;
     background-color: black;
     color:white;
   }
   .yoyaku2{
-    line-height: 17px;
-    font-size: 13px;
+    line-height: 20px;
+    font-size: 11px;
     background-color: black;
     color:white;
   }
