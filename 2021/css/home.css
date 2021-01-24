@@ -2,10 +2,17 @@ body{
   height: 100%;
 }
 
+.kaisaini{
+  text-decoration: none;
+  underline:none;
+  color:yellow;
+}
 
-
-
-
+.info4 a{
+   text-decoration:none;
+}
+@media screen and (min-width:1171px){}
+@media screen and (max-width:1170px){}
 
 
 
@@ -71,12 +78,21 @@ body{
   }
   .title1{
     text-align: left;
-    font-size: 55;
+    font-size: 60;
     margin-bottom: -10px;
   }
 
   .titleA{
     font-size:40px;
+      line-height: 70px;
+  }
+
+  .webTitle{
+
+  }
+
+  .iosTitle{
+  display: none;
   }
 
   .osirase{
@@ -126,7 +142,8 @@ body{
   .date{
     font-size: 80px;
     /* line-height:50px; */
-    text-decoration: underline;
+    /* border-bottom: solid 10px red; */
+    /* text-decoration: underline; */
   }
 
   .info2{
@@ -212,7 +229,7 @@ body{
 
   .mainWrap{
     position: relative;
-    height:100vh;
+    height:88vh;
   }
 
   .yoyaku-link{
@@ -236,18 +253,26 @@ body{
     position:absolute;
     /* left: 100px; */
     text-align: left;
-    margin-left: 40px;
+    margin-left: 10px;
+    /* margin-top: 10px; */
   }
   .title1{
     text-align: left;
-    font-size: 35px;
+    font-size: 5vw;
     margin-bottom: -10px;
   }
 
   .titleA{
-    font-size:30px;
+    font-size: 5vw;
   }
 
+  .webTitle{
+    display: none;
+  }
+
+  .iosTitle{
+    /* display: none; */
+  }
   .osirase{
     position:absolute;
     top:100px;
@@ -280,27 +305,27 @@ body{
     padding:0px;
     bottom:30px;
     margin-top: 50px;
-    margin-left: 40px;
+    margin-left: 10px;
     margin-bottom:-20px;
   }
 
   .info1{
-    line-height: 40px;
+    line-height: 30px;
   }
 
   .year{
-    font-size: 30px;
+    font-size: 20px;
       /* line-height:60px; */
   }
 
   .date{
-    font-size: 40px;
+    font-size: 30px;
     /* line-height:50px; */
     text-decoration: underline;
   }
 
   .info2{
-    font-size: 17px;
+    font-size: 13px;
     line-height:20px;
     color:white;
   }
@@ -316,7 +341,7 @@ body{
 
 
   .info3{
-    font-size: 15px;
+    font-size: 13px;
     line-height:15px;
     color:white;
   }
@@ -335,13 +360,14 @@ body{
   }
 
   .yoyaku{
-    font-size: 25px;
+    font-size: 13px;
+    line-height: 25px;
     background-color: black;
     color:white;
   }
   .yoyaku2{
-    line-height: 25px;
-    font-size: 15px;
+    line-height: 17px;
+    font-size: 13px;
     background-color: black;
     color:white;
   }

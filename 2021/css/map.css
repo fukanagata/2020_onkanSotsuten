@@ -1,0 +1,21 @@
+@media screen and (min-width:1171px){
+  .item-visual{
+    margin:40px 0;
+    text-align: center;
+  }
+
+  .item-visual img{
+    width:800px;
+  }
+}
+
+@media screen and (max-width:1170px){
+  .item-visual{
+    margin:40px 0;
+    text-align: center;
+  }
+
+  .item-visual img{
+    width:95%;
+  }
+}
