@@ -18,8 +18,14 @@ body{
   text-decoration: none;
   color: white;
 }
+@media screen and (max-width:1300px){
+  .engTitle{
+    display: none;
+  }
+}
 
-@media screen and (min-width:1171px){
+
+@media screen and (min-width:1001px){
 
   .mainVis{
     position: fixed;
@@ -54,6 +60,8 @@ body{
   .mainWrap{
     position: relative;
     height:100vh;
+    /* height:100vh; */
+    min-height: 1000px; */
   }
 
   .yoyaku-link{
@@ -71,6 +79,7 @@ body{
      left: 50%;                   /* 親要素の半分右にずらす */
      transform: translateY(-50%) translateX(-50%);    /* 要素自体の半分、上と左にずらす */
      padding: 20px;
+     z-index: 2;
   }
 
   .yoyaku-link2{
@@ -111,7 +120,7 @@ body{
   }
   .engTitle{
     position:absolute;
-    bottom:20px;
+    bottom:0px;
     right:30px;
     text-align: right;
     font-size: 18px;
@@ -131,10 +140,11 @@ body{
   .info{
     position:absolute;
     padding:0px;
-    bottom:30px;
+    bottom:00px;
     margin-top: 50px;
     margin-left: 40px;
     margin-bottom:-0px;
+    z-index: 1;
   }
 
   .info1{
@@ -154,8 +164,8 @@ body{
   }
 
   .info2{
-    font-size: 25px;
-    line-height:35px;
+    font-size: 20px;
+    line-height:30px;
     color:white;
   }
 
@@ -186,15 +196,16 @@ body{
 
   .info4{
     color:white;
+    z-index: 100;
   }
 
   .yoyaku{
-    font-size: 25px;
+    font-size: 20px;
     background-color: black;
     color:white;
   }
   .yoyaku2{
-    line-height: 25px;
+    line-height: 20px;
     font-size: 15px;
     background-color: black;
     color:white;
@@ -202,7 +213,7 @@ body{
 }
 
 
-@media screen and (max-width:1170px){
+@media screen and (max-width:1000px){
 
   .mainVis{
     position: fixed;
@@ -218,8 +229,8 @@ body{
     top:50%;
     left:50vw;
     transform: translateY(-55%) translateX(-50%);
-    width:100vw;
-    height:auto;
+    width:auto;
+    height:100vh;
   }
 
   .image2{
@@ -236,7 +247,7 @@ body{
 
   .mainWrap{
     position: relative;
-    height:88vh;
+    height:90vh;
   }
 
   .yoyaku-link{
@@ -338,19 +349,22 @@ body{
   }
 
   .year{
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 7vw;
       /* line-height:60px; */
   }
 
   .date{
-    font-size: 30px;
-    /* line-height:50px; */
+    /* font-size: 30px; */
+    font-size: 7.5vw;
+    line-height: 7.8vw;
     text-decoration: underline;
   }
 
   .info2{
-    font-size: 13px;
-    line-height:20px;
+    /* font-size: 13px; */
+    font-size: 3.5vw;
+    line-height:5vw;
     color:white;
   }
 
@@ -365,8 +379,8 @@ body{
 
 
   .info3{
-    font-size: 13px;
-    line-height:15px;
+    font-size: 2.5vw;
+    line-height:4.4vw;
     color:white;
   }
 
@@ -384,14 +398,14 @@ body{
   }
 
   .yoyaku{
-    font-size: 11px;
-    line-height: 20px;
+    font-size: 2.5vw;
+    line-height:4.4vw;
     background-color: black;
     color:white;
   }
   .yoyaku2{
-    line-height: 20px;
-    font-size: 11px;
+    font-size: 2.5vw;
+    line-height:4.4vw;
     background-color: black;
     color:white;
   }

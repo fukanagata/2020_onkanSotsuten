@@ -189,7 +189,7 @@ to {
 .wrap{
   margin: 0,auto;
 
-  min-height: 100%;
+  min-height: 1000px;
   /* margin-bottom: -300px; */
     position: relative;/*←相対位置*/
     padding-bottom: 30px;/*←footerの高さ*/
@@ -488,6 +488,7 @@ footer {
 @media screen and (max-width:750px){
   main{
     /* margin-bottom: 130; */
+
   }
   .logo {
     width:120px;
